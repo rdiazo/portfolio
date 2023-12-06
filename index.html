@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-translate-es="Portafolio" data-translate-en="Portfolio" >Roberto Diaz | Portafolio</title>
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/header.css">
+  <link rel="stylesheet" href="./assets/css/nav.css">
+  <link rel="stylesheet" href="./assets/css/aboutMe.css">
+  <link rel="stylesheet" href="./assets/css/technologies.css">
+  <link rel="stylesheet" href="./assets/css/contactMe.css">
+  <link rel="stylesheet" href="./assets/css/footer.css">
+  <link rel="stylesheet" href="./assets/css/projects.css">
+  <link rel="stylesheet" href="./assets/css/reviews.css">
+  <link rel="stylesheet" href="./assets/css/form.css">
+
+  <link rel="shortcut icon" href="./assets/img/rddo.jpg" type="image/x-icon">
+
+  <meta name="author" content="Roberto Diaz">
+
+  <meta name="description"
+    content="Desarrollador Full Stack especializado en el desarrollo de interfaces web con React y la creación de API con Node.js y Express. Destacó en habilidades blandas, con enfoque en comunicación activa y receptividad a feedbacks. Además, cuento con habilidades sólidas en programación, documentación y gestión de proyectos, utilizando herramientas como Slack y Notion.">
+
+  <meta name="keywords"
+    content="Full Stack Developer, Desarrollador Full Stack, React, Node.js, Express, SQL, Postgres, programador con experiencia">
+
+  <!-- Open Graph Protocol (OGP): Open Graph Protocol es un conjunto de estándares que permite a las páginas web tener un mejor control sobre cómo se comparten y se muestran en las redes sociales. -->
+  <!-- Metaetiquetas Open Graph para compartir en redes sociales -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Roberto Diaz - Desarrollador Full Stack" />
+  <meta property="og:description"
+    content="Desarrollador Full Stack especializado en el desarrollo de interfaces web con React y la creación de API con Node.js y Express. Destacó en habilidades blandas, con enfoque en comunicación activa y receptividad a feedbacks. Además, cuento con habilidades sólidas en programación, documentación y gestión de proyectos, utilizando herramientas como Slack y Notion. #DesarrolloWeb #FullStackDeveloper" />
+  <meta property="og:url" content="URL_DE_TU_PORTAFOLIO" />
+  <meta property="og:image" content="URL_DE_LA_IMAGEN" />
+
+  <!-- Font-family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Heebo:wght@200;400;600&family=Rubik+Moonrocks&display=swap"
+    rel="stylesheet">
+
+  <!-- icons -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- soporte propiedades y etiquetas que aun el navegador no lo soporta -->
+  <script src="https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js"></script>
+
+  <!--  emailjs -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <script type="text/javascript">
+    emailjs.init('_BF8yLgi-SVKwIWHK')
+  </script>
+
+
+</head>
+
+<body class="body body--ligth body--dark">
+  <div id="progress"></div>
+
+  <nav class="nav">
+
+    <span id="menu" class="material-symbols-outlined">
+      menu
+    </span>
+
+    <div class="nav--menu nav--transalate">
+
+      <ul class='nav__ul'>
+        <li class='nav__li' id="changeLanguageBtn"><span class="material-symbols-outlined">
+            translate
+          </span></li>
+        <li class='nav__li' id="toggleModeBtn"><span id="modeText" class=" material-symbols-outlined">
+            <!-- dark_mode -->
+            light_mode
+          </span></li>
+      </ul>
+
+      <ul class='nav__ul'>
+        <li class='nav__li'>
+          <a href="#home" data-translate-en="Home" data-translate-es="Inicio">Inicio</a>
+        </li>
+        <li class='nav__li'>
+          <a href="#aboutMe" data-translate-en="About Me" data-translate-es="Sobre Mí">Sobre Mí</a>
+        </li>
+        <li class='nav__li'>
+          <a href="#technologies" data-translate-en="Technologies" data-translate-es="Tecnologías">Tecnologías</a>
+        </li>
+        <li class='nav__li'>
+          <a href="#projects" data-translate-en="Projects" data-translate-es="Proyectos">Proyectos</a>
+        </li>
+        <li class='nav__li'>
+          <a href="#reviews" data-translate-en="Reviews" data-translate-es="Reseñas">Reseñas</a>
+        </li>
+        <li class='nav__li'>
+          <a href="#contactMe" data-translate-en="Contact Me" data-translate-es="Contáctame">Contáctame</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="header" id="home">
+    <h1 class="header__h1">Roberto Diaz</h1>
+    <h2 class="header__h2" data-translate-en="Full Stack Web Developer" data-translate-es="Desarrollador web FullStack">
+      Desarrollador web FullStack</h2>
+
+    <div class="div--contact">
+      <a id="contactMeBtn" class="div__a">
+        <span data-translate-en="Contact Me" data-translate-es="Contáctame">Contáctame</span>
+        <span class="material-symbols-outlined">arrow_forward_ios</span>
+      </a>
+
+      <a download href="./assets/cv/cv_es.png" class="div__a" data-translate-en="Download CV"
+        data-translate-es="Descargar CV" id="downloadCV">Descargar CV</a>
+    </div>
+
+    <div class="morph"></div>
+  </header>
+
+  <main class="main">
+    <section id="aboutMe" class="section">
+      <h2 class="section__h2" data-translate-en="About Me" data-translate-es="Sobre Mí">Sobre Mí</h2>
+      <p class="section__p"
+        data-translate-en="I have developed a consolidated technical base and skills to face the challenges of web development, having a vision of achieving the greatest effectiveness and performance."
+        data-translate-es="He desarrollado una consolido base técnica y habilidades para enfrentar los retos del desarrollo web, teniendo una visión de lograr la mayor efectividad y rendimiento. ">
+        He desarrollado una consolido base técnica y habilidades para enfrentar los retos del desarrollo web, teniendo una visión de lograr la mayor efectividad y rendimiento. 
+      </p>
+
+      <h3 class="section__h3" data-translate-en="
+      Why am I different?" data-translate-es="¿Por qué soy diferente?">¿Por qué soy diferente?</h3>
+      <ul class="section__ul">
+        <li class="section__li">
+          <strong data-translate-en="Adaptability" data-translate-es="Adaptabilidad">Adaptabilidad</strong>
+          <span data-translate-en="Learning different technologies allows me to quickly adapt to any work environment."
+            data-translate-es="El aprendizaje de diferentes tecnologías me permite adaptarme rápidamente a cualquier entorno de trabajo.">
+            El aprendizaje de diferentes tecnologías me permite adaptarme rápidamente a cualquier entorno de trabajo.
+          </span>
+        </li>
+        <li class="section__li">
+          <strong data-translate-en="Passion" data-translate-es="Pasión">Passion</strong>
+          <span data-translate-en="I tackle projects with fervor and commitment, aiming to surpass expectations."
+            data-translate-es="I like to focus on goals with passion and commitment.">
+            Me gusta enfocarme en las metas con pasión y compromiso.
+          </span>
+        </li>
+        <li class="section__li">
+          <strong data-translate-en="Commitment" data-translate-es="Compromiso">Compromiso</strong>
+          <span
+            data-translate-en="
+            I give priority to the project, providing the best strategies to achieve the objective of each project."
+            data-translate-es="Le doy prioridad al proyecto, aportando las mejores estrategias para lograr el objetivo de cada proyecto. ">
+            Le doy prioridad al proyecto, aportando las mejores estrategias para lograr el objetivo de cada proyecto. 
+          </span>
+        </li>
+        <li class="section__li">
+          <strong data-translate-en="Innovative Vision" data-translate-es="Visión innovadora">Visión innovadora</strong>
+          <span data-translate-en="I am constantly updating, providing innovative strategies adapted to each project."
+            data-translate-es="Me encuentro en constante actualización, aportando innovadoras estrategias adaptadas a cada proyecto.">
+            Me encuentro en constante actualización, aportando innovadoras estrategias adaptadas a cada proyecto.
+          </span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="technologies" class="section">
+      <h2 class="section__h2" data-translate-en="Technologies" data-translate-es="Tecnologías">Tecnologías</h2>
+      <div class="tech-cards">
+        <!-- HTML Card -->
+        <article class="tech-card">
+          <span class="tech-card__front" data-tech="html">HTML</span>
+          <span class="tech-card__back" data-translate-en="Experience: 1 year" data-translate-es="Experiencia: 1 año">
+            Experiencia: 1 año</span>
+        </article>
+        <!-- CSS Card -->
+        <article class="tech-card">
+          <span class="tech-card__front" data-tech="css">CSS</span>
+          <span class="tech-card__back" data-translate-en="Experience: 1 year" data-translate-es="Experiencia: 1 año">
+            Experiencia: 1 año</span>
+        </article>
+        <!-- JavaScript Card -->
+        <article class="tech-card">
+          <span class="tech-card__front" data-tech="javascript">JavaScript</span>
+          <span class="tech-card__back" data-translate-en="Experience: 1 year" data-translate-es="Experiencia: 1 año">
+            Experiencia: 1 año</span>
+        </article>
+        <!-- Git Card -->
+        <article class="tech-card">
+          <span class="tech-card__front" data-tech="git">Git</span>
+          <span class="tech-card__back" data-translate-en="Experience: 1 year" data-translate-es="Experiencia: 1 año">
+            Experiencia: 1 año</span>
+        </article>
+        <!-- React Card -->
+        <article class="tech-card">
+          <span class="tech-card__front" data-tech="react">React</span>
+          <span class="tech-card__back" data-translate-en="Experience: 1 year" data-translate-es="Experiencia: 1 año">
+            Experiencia: 1 año</span>
+        </article>
+        <!-- Node.js Card -->
+        <article class="tech-card">
+          <span class="tech-card__front" data-tech="node">Node.js</span>
+          <span class="tech-card__back" data-translate-en="Experience: 1 year" data-translate-es="Experiencia: 1 año">
+            Experiencia: 1 año</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section section--projects">
+      <h2 class="section__h2" data-translate-es="Proyectos" data-translate-en="Projects">Proyectos</h2>
+
+      <article class='article'>
+
+        <button class='article__button left'>
+          <i class='bx bx-left-arrow-alt'></i>
+        </button>
+
+        <ul class='article__ul' id="conteiner_projects">
+          <!-- aqui se insertaran los li -->
+        </ul>
+
+        <button class="article__button rigth">
+          <i class='bx bx-right-arrow-alt'></i>
+        </button>
+
+      </article>
+    </section>
+
+    <section id="reviews" class="section section--reviws ">
+      <h2 data-translate-en="Reviews" data-translate-es="Reseñas" class="section__h2">Reseñas</h2>
+      <ul class="ul--review" id="reviews-list">
+
+        <!-- aqui insertaremos los li -->
+      </ul>
+    </section>
+
+    <section id="contactMe" class="section">
+      <h2 class="section__h2" id="contactHeader" data-translate-en="Contact Me" data-translate-es="Contáctame">
+        Contáctame</h2>
+      <p data-translate-en="You can contact me through:"
+        data-translate-es="Puedes contactarme a través de:">Puedes contactarme a través de:</p>
+      <div class="contact-options">
+        <a class="contact-item" href="tel:+55435439">
+          <i class='icon bx bx-phone'></i>
+          <span data-translate-en="Call Me" data-translate-es="Llámame">Llámame</span>
+        </a>
+        <a class="contact-item" href="mailto:martinez@gmail.com">
+          <i class='icon bx bxl-gmail'></i>
+          <span data-translate-en="Send me an email" data-translate-es="Envíame un correo">Envíame un correo</span>
+        </a>
+        <a class="contact-item" href="https://wa.me/+544535" target="_blank">
+          <i class='icon bx bxl-whatsapp'></i>
+          <span data-translate-en="WhatsApp" data-translate-es="WhatsApp">WhatsApp</span>
+        </a>
+        <a class="contact-item" href="https://www.linkedin.com/in/gabrielmartinezghioma/" target="_blank">
+          <i class='icon bx bxl-linkedin'></i>
+          <span data-translate-en="LinkedIn" data-translate-es="LinkedIn">LinkedIn</span>
+        </a>
+        <a class="contact-item" href="https://github.com/gabrielmartinezghioma" target="_blank">
+          <i class='icon bx bxl-github'></i>
+          <span data-translate-en="GitHub" data-translate-es="GitHub">GitHub</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <main class="footer-distributed">
+
+    <div class="footer__left">
+      <h3 class="footer__title" data-translate-en="Roberto Diaz" data-translate-es="Roberto Diaz">Roberto
+        Diaz</h3>
+      <p class="footer__description"
+        data-translate-en="Full-stack developer."
+        data-translate-es="Desarrollador Full-stack.">
+        Desarrollador Full-stack.
+      </p>
+    </div>
+
+    <div class="footer__center">
+      <div class="footer__icon"><i class="bx bx-map"></i></div>
+      <p class="footer__location" data-translate-en="Santa Cruz de Aragua,
+      Veenzuela" data-translate-es="Santa Cruz de Aragua,
+      Veenzuela">Santa Cruz de Aragua,
+        Veenzuela</p>
+      <p class="footer__copyright" id="yearText"></p>
+    </div>
+
+    <div class="footer__right">
+      <a href="https://github.com/yourprofile" class="footer__social-icon footer__social-icon--facebook">
+        <i class='bx bxl-github'></i>
+      </a>
+      <a href="https://youtube.com/yourprofile" class="footer__social-icon footer__social-icon--twitter">
+        <i class='bx bxl-youtube'></i>
+      </a>
+      <a href="https://linkedin.com/yourprofile" class="footer__social-icon footer__social-icon--linkedin">
+        <i class="bx bxl-linkedin"></i>
+      </a>
+    </div>
+
+  </main>
+
+
+  </footer>
+
+
+
+  </footer>
+
+  <dialog id='dialog' class="dialog">
+    <button class="dialog__button" id="close_button">
+      <span class="material-symbols-outlined">
+        close
+      </span>
+    </button>
+
+    <form id="form" class="form--container" method="post">
+
+      <label for="name" data-translate-en="Name:" data-translate-es="Nombre:" class="form__label">
+        Nombre:
+      </label>
+      <input type="text" id="name" name="name" required class="form__input">
+
+      <label for="email" data-translate-en="Email:" data-translate-es="Correo Electronico:" class="form__label">
+        Correo Electronico:
+      </label>
+      <input type="email" id="email" name="email" required class="form__input">
+
+      <label for="phone" data-translate-en="Phone:" data-translate-es="telefono:" class="form__label">
+        telefono:
+      </label>
+      <input type="tel" id="phone" name="phone" required class="form__input">
+
+      <label for="message" data-translate-en="message:" data-translate-es="Correo Electronico:" class="form__label">
+        Mensaje:
+      </label>
+      <textarea input type="text" id="message" name="message" required class="form__input form__area"></textarea>
+
+      <button id="btn-send" type="submit" class="form__button" data-translate-en="Send"
+        data-translate-es="Enviar">Enviar</button>
+
+    </form>
+  </dialog>
+
+  <script src="./assets/js/changeMode.js"></script>
+  <script src="./assets/js/changeLenguage.js"></script>
+  <script src="./assets/js/menu-responsive.js"></script>
+  <script src="./assets/js/yearText.js"></script>
+  <script src="./assets/js/animation-scroll.js"></script>
+  <script src="./assets/js/promese.js"></script>
+  <script src="./assets/js/asyncAwait.js"></script>
+  <script src="./assets/js/form.js"></script>
+</body>
+
+</html>
